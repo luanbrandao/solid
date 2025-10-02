@@ -3,7 +3,7 @@ import { InventoryChecker } from "./inventory-checker";
 import { OrderCalculator } from "./order-calculator";
 import { PaymentProcessor } from "./payment-processor";
 
-// patten facade
+// pattern facade
 export class OrderProcessorService {
   constructor(
     private readonly inventoryChecker: InventoryChecker,
